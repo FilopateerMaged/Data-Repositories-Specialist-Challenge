@@ -2,7 +2,7 @@ import pandas as pd
 import os
 from xml.etree import ElementTree as ET
 
-path = "E:\DataRepositories_Test\Explainers" #declaring a path variable for ease of accessing multiple folders 
+path = 
 lst = [] 
 i = 0
 for filename in os.listdir(path):
