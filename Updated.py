@@ -2,11 +2,10 @@ import os
 import shutil
 from xml.etree import ElementTree as ET
 new_path = "Updated" #Naming the directory 
-main_path = "E:\DataRepositories_Test" #Getting the exact path of the current directory
+main_path = 
 path = os.path.join(main_path,new_path)
-old_path = "E:\DataRepositories_Test\Explainers"   #Getting the exact path of the Explainers
+old_path =   #Getting the exact path of the Explainers
 os.mkdir(path) #Creating the directory
-old_path = "E:\DataRepositories_Test\Explainers"
 
 for filename in os.listdir(old_path): #looping over the files and copying them to the "Updated" Folder
     full_file_name = os.path.join(old_path, filename)
