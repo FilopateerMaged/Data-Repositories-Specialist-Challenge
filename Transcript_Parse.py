@@ -2,7 +2,7 @@ import pandas as pd
 import os
 from xml.etree import ElementTree as ET
 
-path = "E:\DataRepositories_Test\Video Transcripts" #declaring a path variable for ease of accessing multiple folders 
+path = 
 for filename in os.listdir(path):
     fullname = os.path.join(path, filename)
     nameOfFile = os.path.splitext(filename)[0] #saving the filename in a variable and removing the extension 
